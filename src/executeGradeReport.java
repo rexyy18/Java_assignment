@@ -1,10 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        executeGradeReport(77);
-
-    }
+public class executeGradeReport {
     public static void executeGradeReport(double score){
         if (validateScore(score)){
             System.out.println("Invalid score");
